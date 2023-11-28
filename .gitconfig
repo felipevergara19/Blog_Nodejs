@@ -1,0 +1,11 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Felipe Vergara
+	email = felipe.vergara19@gmail.com
+[core]
+	editor = code --wait
+	autocrlf = true
